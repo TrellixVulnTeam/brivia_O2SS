@@ -1,6 +1,9 @@
 *{
     font-family: 'Montserrat', sans-serif;
 }
+html{
+    scroll-behavior: smooth;
+}
 header{
     position: relative;
     .GoBottom{
@@ -43,7 +46,7 @@ header{
 }
 .Banner{
 	/*height: 617px;*/
-	background: url(../imgs/banner.jpg) no-repeat;
+	background: url(../images/banner.jpg) no-repeat;
     background-size: cover;
 
     .Busca{
