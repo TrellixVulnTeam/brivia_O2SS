@@ -1,0 +1,475 @@
+* {
+  font-family: 'Montserrat', sans-serif;
+}
+
+header {
+  position: relative;
+}
+
+header .GoBottom {
+  position: absolute;
+  left: 50%;
+  bottom: 30px;
+  color: #fff;
+  font-size: 30px;
+}
+
+.navbar {
+  background-color: rgba(37, 37, 37, 0.7);
+  display: block;
+  padding: 0;
+  overflow: hidden;
+}
+
+.navbar .navbar-brand {
+  margin: 8px 100px 0 20px;
+}
+
+.navbar .navbar-toggler {
+  color: #fff;
+}
+
+.navbar .navbar-toggler:hover {
+  color: #ec6f2d;
+}
+
+.navbar .BoxMenu {
+  float: right;
+  background: #252525;
+  padding: 30px 60px;
+}
+
+.navbar .BoxMenu button:focus {
+  outline: none;
+}
+
+.navbar .BoxMenu .navbar-collapse {
+  margin-top: 20px;
+}
+
+.Banner {
+  /*height: 617px;*/
+  background: url(../imgs/banner.jpg) no-repeat;
+  background-size: cover;
+}
+
+.Banner .Busca {
+  color: #fff;
+}
+
+.Banner .Busca i {
+  margin-right: 30px;
+  font-size: 25px;
+}
+
+.Banner .Busca input {
+  background: transparent;
+  border: none;
+  color: #fff;
+  padding: 5px;
+  font-size: 16px;
+}
+
+.Banner .Busca input::-webkit-input-placeholder {
+  color: #fff;
+  font-size: 20px;
+  text-transform: uppercase;
+  font-size: 15px;
+}
+
+.Banner .Busca input:-ms-input-placeholder {
+  color: #fff;
+  font-size: 20px;
+  text-transform: uppercase;
+  font-size: 15px;
+}
+
+.Banner .Busca input::-ms-input-placeholder {
+  color: #fff;
+  font-size: 20px;
+  text-transform: uppercase;
+  font-size: 15px;
+}
+
+.Banner .Busca input::placeholder {
+  color: #fff;
+  font-size: 20px;
+  text-transform: uppercase;
+  font-size: 15px;
+}
+
+.Banner .Menu a {
+  color: #fff;
+}
+
+.Banner h1 {
+  font-size: 50px;
+  letter-spacing: 4px;
+  font-weight: 700;
+  color: #fff;
+  margin: 0;
+  text-transform: uppercase;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.Banner h2, .Banner h3 {
+  font-size: 40px;
+  color: #fff;
+  font-weight: 700;
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+}
+
+.Banner h4 {
+  font-size: 20px;
+  color: #fff;
+  font-weight: 700;
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+}
+
+.Banner h6 {
+  font-size: 20px;
+  font-weight: 400;
+  color: #fff;
+  text-transform: uppercase;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.Banner .Form {
+  background-color: rgba(236, 111, 45, 0.8);
+  width: 100%;
+  overflow: hidden;
+  text-align: center;
+  padding-bottom: 150px;
+}
+
+.Banner .Form span {
+  color: #fff;
+  font-size: 30px;
+  font-weight: 700;
+  display: block;
+  margin-top: 100px;
+}
+
+.Banner .Form p {
+  color: #fff;
+  padding: 0 30px;
+}
+
+.Banner .Form form {
+  padding: 20px;
+}
+
+.Banner .Form form input {
+  border-radius: 0;
+}
+
+.Banner .Form form .BtnForm {
+  width: 100%;
+  text-transform: uppercase;
+}
+
+.Banner .Form form .BtnForm:hover {
+  background-color: #ec6f2d;
+  color: #fff;
+}
+
+#QeumSomos {
+  padding: 80px 0;
+}
+
+#QeumSomos .col-md-7 {
+  background-color: #ecf2f2;
+}
+
+#QeumSomos .col-md-7 ul {
+  margin: 20px 0 30px 0;
+  padding: 0;
+  list-style: none;
+}
+
+#QeumSomos .col-md-7 ul li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+#QeumSomos .col-md-7 ul li:first-child {
+  margin-left: 0;
+}
+
+#QeumSomos .col-md-7 ul li a {
+  display: block;
+  color: #fff;
+  background-color: #ec6f2d;
+  font-size: 15px;
+  font-weight: 700;
+  padding: 15px 20px;
+  text-transform: uppercase;
+}
+
+#QeumSomos .col-md-7 ul li a:hover {
+  text-decoration: none;
+  background-color: #d45611;
+}
+
+#QeumSomos .col-md-7 ul li a i {
+  margin-right: 8px;
+}
+
+#QeumSomos .col-md-7 h1 {
+  font-weight: 700;
+  font-size: 30px;
+  color: #5e5e5e;
+}
+
+#QeumSomos .col-md-7 p {
+  font-size: 16px;
+  color: #5e5e5e;
+}
+
+#QeumSomos .col-md-7 button {
+  border: none;
+  float: right;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 15px;
+  padding: 15px 20px;
+  background-color: #eb4825;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+#QeumSomos .col-md-7 button i {
+  margin-right: 8px;
+  font-size: 16px;
+}
+
+#QeumSomos .col-md-7 button:hover {
+  background-color: #ec6f2d;
+}
+
+#Servicos {
+  background: -webkit-gradient(linear, left top, right top, color-stop(50%, #ec6f2d), color-stop(50%, #454545));
+  background: linear-gradient(90deg, #ec6f2d 50%, #454545 50%);
+  padding: 60px 0;
+}
+
+#Servicos h1 {
+  color: #5d5d5d;
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+
+#Servicos ul {
+  list-style: none;
+  padding: 0;
+  width: 50%;
+  float: left;
+}
+
+#Servicos ul li {
+  margin-bottom: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#Servicos ul li i {
+  color: #fff;
+  font-size: 40px;
+  margin: 7px 15px 0 0;
+}
+
+#Servicos ul li strong {
+  font-size: 15px;
+  color: #5d5d5d;
+}
+
+#Servicos ul li p {
+  color: #5d5d5d;
+  font-size: 13px;
+}
+
+#Servicos .Carousel {
+  padding: 0 40px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#Servicos .Carousel .slide {
+  display: none;
+}
+
+#Servicos .Carousel .btnSlide {
+  color: #fff;
+  font-weight: 700;
+  font-size: 15px;
+  text-transform: uppercase;
+  display: inline-block;
+  padding: 15px 20px;
+  border: 1px solid #d45611;
+  position: relative;
+  margin-right: 30px;
+  margin-bottom: 30px;
+}
+
+#Servicos .Carousel .btnSlide:hover {
+  background-color: #d45611;
+  text-decoration: none;
+}
+
+#Servicos .Carousel .btnSlideAtivo {
+  background-color: #d45611;
+}
+
+#Servicos .Carousel .btnSlideAtivo::before {
+  content: ' ';
+  display: block;
+  width: 0;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-top: 10px solid #d45611;
+  position: absolute;
+  left: 50%;
+  bottom: -10px;
+  margin-left: -5px;
+}
+
+#Servicos .Carousel button {
+  border: none;
+  background: transparent;
+  color: #fff;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+#Servicos .Carousel button:focus {
+  outline: none;
+}
+
+#Localizacao {
+  background-color: #454545;
+  padding: 60px 0 0 0;
+}
+
+#Localizacao h1 {
+  font-size: 40px;
+  color: #d45611;
+  font-weight: 700;
+}
+
+#Localizacao h2 {
+  font-size: 30px;
+  color: #fff;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+#Localizacao h2 i {
+  color: #d45611;
+}
+
+#Localizacao p {
+  font-size: 14px;
+  color: #fff;
+  line-height: 25px;
+}
+
+#Localizacao button {
+  color: #fff;
+  font-size: 15px;
+  font-weight: 700;
+  padding: 15px 20px;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  border: none;
+  cursor: pointer;
+}
+
+#Localizacao button i {
+  font-size: 20px;
+}
+
+#Localizacao button:first-child {
+  background-color: #d45611;
+  margin-right: 15px;
+}
+
+#Localizacao button:first-child:hover {
+  background-color: #eb4825;
+}
+
+#Localizacao button:last-child {
+  background-color: #eb4825;
+}
+
+#Localizacao button:last-child:hover {
+  background-color: #d45611;
+}
+
+footer {
+  background-color: #171717;
+  padding: 60px 0 80px 0;
+}
+
+footer hr {
+  border-top: 2px solid #272727;
+}
+
+footer p {
+  font-size: 13px;
+  color: #616161;
+}
+
+@media (max-width: 767.98px) {
+  .Busca {
+    display: none;
+  }
+  .navbar .BoxMenu {
+    padding: 30px;
+  }
+  .navbar .navbar-brand {
+    margin: 8px 0 0 20px;
+  }
+  #QeumSomos .col-md-7 ul li {
+    float: left;
+    margin: 10px 5px;
+  }
+  #QeumSomos .col-md-7 h1 {
+    display: block;
+    margin: 20px 0;
+  }
+  #QeumSomos .col-md-7 button {
+    float: left;
+  }
+  #Servicos {
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(70%, #ec6f2d), color-stop(30%, #454545));
+    background: linear-gradient(180deg, #ec6f2d 70%, #454545 30%);
+  }
+  #Servicos ul {
+    width: 100%;
+    background-color: #ec6f2d;
+  }
+  #Servicos .BoxSlide {
+    background-color: #454545;
+  }
+  #Servicos .Carousel {
+    padding: 20px;
+  }
+  #Servicos .Carousel .btnSlide {
+    padding: 10px;
+    margin-right: 3px;
+  }
+  #Servicos .Carousel button {
+    display: none;
+  }
+  #Localizacao h2 {
+    font-size: 27px;
+    margin-bottom: 30px;
+  }
+}
+/*# sourceMappingURL=style.css.map */
